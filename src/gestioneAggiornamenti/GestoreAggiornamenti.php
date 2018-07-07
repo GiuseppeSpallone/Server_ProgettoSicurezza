@@ -8,7 +8,7 @@ class GestoreAggiornamenti
         $database = new Database();
         $con = $database->getConnection();
 
-        $query = "SELECT id, versione, file FROM aggiornamento WHERE id = 1";
+        $query = "SELECT id, versione, file FROM aggiornamento WHERE id=3";
 
         $stmt = $con->prepare($query);
         $stmt->execute();

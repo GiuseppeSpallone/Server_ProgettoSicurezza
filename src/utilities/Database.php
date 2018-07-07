@@ -2,8 +2,8 @@
 class Database
 {
     const host = 'localhost';
-    const database = 'progettoSicurezza';
-    const username = 'root';
+    const database = 'my_progettosicurezza';
+    const username = 'progettosicurezza';
     const password = '';
 
     public static function getConnection(){
